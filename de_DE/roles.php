@@ -9,5 +9,10 @@
 		'length' => 'Das Namensfeld muss zwischen 2 und 30 Zeichen lang sein.',
 		'nomodify' => 'Die Rolle SuperAdmin kann nicht verändert werden.',
 		'required' => 'Das Feld Name ist notwendig.',
+	),
+	'access_level' => array(
+		'numeric' => 'Das Feld \'Zugangsebene\' muss eine Nummer zwischen 0 - 100 sein.',
+		'required' => 'Das Feld \'Zugangsebene\' muss eine Nummer zwischen 0 - 100 sein.',
+
 	));
 ?>
