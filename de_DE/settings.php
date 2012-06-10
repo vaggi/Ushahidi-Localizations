@@ -25,6 +25,10 @@
 		'alpha_numeric' => 'The Akismet field does not appear to contain a valid value?',
 		'length' => 'The Akismet field does not appear to contain a valid value?',
 	),
+	'banner_image' => array(
+		'default' => 'Something went wrong with your banner image upload.',
+		'size' => 'The size of your banner exceeds the size limit for this upload.',	
+	),
 	'api_default_record_limit' => 'Standard API Grenze',
 	'cache_pages' => array(
 		'between' => 'Das Cache Feld ist notwendig.',
@@ -82,8 +86,20 @@
 		'length' => 'The Mail Server Username field must be no more 50 characters long.',
 		'required' => 'The Mail Server Username field is required.',
 	),
+	'facebook' => array(
+		'title' => 'Facebook Setup Options',
+		'description' => 'To get the information below you will need to create a new Facebook application at',
+		'app_id' => 'Facebook App ID',
+		'app_secret' => 'Facebook App Secret',
+	),
 	'google_analytics' => array(
-		'length' => 'The Google Analytics field must contain a valid Web Property ID in the format UA-XXXXX-XX.',
+		'length' => 'Das Google Analytics Feld muss eine gültige Web Property ID im Format UA-XXXXX-XX beinhalten.',
+	),
+	'https' => array(
+		'enable_https' => 'Aktiviere HTTPS',
+		'https_disabled' => 'This option makes Ushahidi be accessed in unsecure mode; <strong>without</strong> "https://" in the URL prefix',
+		'https_enabled' => 'This option makes Ushahidi be accessed in secure mode; with <strong>https</strong> in the URL prefix',
+		'title' => 'HTTPS',
 	),
 	'items_per_page' => array(
 		'between' => 'The items per page (Frontend) field does not appear to contain a valid value?',
@@ -159,9 +175,9 @@
 		'clickatell_text_1' => 'Sign up for Clickatells service by <a href="https://www.clickatell.com/central/user/client/step1.php?prod_id=2" target="_blank">clicking here</a>',
 		'clickatell_text_2' => 'Geben Sie Ihre Clickatell Zugangsdaten ein.',
 		'clickatell_username' => 'Ihr Clickatell Benutzername',
-		'flsms_description' => 'FrontlineSMS is free open source software that turns a laptop and a mobile phone into a central communications hub. Once installed, the program enables users to send and receive text messages with large groups of people through mobile phones. Click on the grey box to request a download from FrontlineSMS.com',
-		'flsms_download' => 'Download Frontline SMS und installieren Sie es auf Ihrem PC',
-		'flsms_instructions' => 'Nachrichten die in einem FrontlineSMS empfangen werden können mit Ushahidi synchronisiert werden. Detailierte Anweisungen finden Sie auf <strong><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha#how_to_setup_frontlinesms_to_sync_with_ushahidi" target="_blank">here</a></strong>. You will require the key and link below to set up the sync with FrontlineSMS',
+		'flsms_description' => 'FrontlineSMS ist freie, quelloffene Software, die einen Laptop und ein Mobiltelefon in einen zentralen Kommunikationsknotenpunkt verwandelt. Einmal installiert ermöglicht das Programm Benutzern das Senden und Empfangen von Textnachrichten über Mobiltelefone an große Gruppen von Menschen. Klicke auf die graue Box um den Download von FrontlineSMS.com anzufordern.',
+		'flsms_download' => 'Downloade Frontline SMS und installiere es auf Deinem PC',
+		'flsms_instructions' => 'Nachrichten, die in einem FrontlineSMS empfangen werden, können mit Ushahidi synchronisiert werden. Detaillierte Anweisungen findest Du auf <strong><a href="http://wiki.ushahididev.com/doku.php?id=how_to_use_ushahidi_alpha#how_to_setup_frontlinesms_to_sync_with_ushahidi" target="_blank">here</a></strong>. You will require the key and link below to set up the sync with FrontlineSMS',
 		'flsms_key' => 'Ihr Ushahidi Sync Key',
 		'flsms_link' => 'FrontlineSMS HTTP Post LINK',
 		'flsms_synchronize' => 'Synchronisiere mit Ushahidi',
@@ -172,15 +188,15 @@
 		'title' => 'SMS Setup Optionen',
 	),
 	'sms_no1' => array(
-		'length' => 'Das Telefonfeld 1 ist ungültig.',
+		'length' => 'Die Eingabe in Telefonfeld 1 ist ungültig.',
 		'numeric' => 'Das Telefonfeld 1 sollte nur Nummern enthalten.',
 	),
 	'sms_no2' => array(
-		'length' => 'Das Telefonfeld 2 ist zu lang.',
+		'length' => 'Die Eingabe in Telefonfeld 2 ist zu lang.',
 		'numeric' => 'Das Telefonfeld 2 sollte nur Nummern enthalten.',
 	),
 	'sms_no3' => array(
-		'length' => 'Das Telefonfeld 3 ist zu lang.',
+		'length' => 'Die Eingabe in Telefonfeld 3 ist zu lang.',
 		'numeric' => 'Das Telefonfeld darf nur Nummern enthalten',
 	),
 	'sms_provider' => array(
