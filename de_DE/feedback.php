@@ -13,10 +13,10 @@
 	),
 	'feedback_title' => array(
 		'length' => 'Das Feld \'Titel\' muss zwischen 3 und 100 Zeichen lang sein.',
-		'required' => 'Ein Titel ist notwendig.',
+		'required' => 'Bitte geben Sie einen Titel an.',
 	),
 	'person_email' => array(
-		'email' => 'Die eMailadresse scheint fehlerhaft zu sein.',
+		'email' => 'Die eMail-Adresse scheint fehlerhaft zu sein.',
 		'required' => 'Bitte geben Sie eine gültige E-Mail Adresse ein.',
 	),
 	'person_name' => array(
