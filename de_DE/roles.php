@@ -8,7 +8,7 @@
 		'alpha_numeric' => 'Das Namensfeld darf nur Zeichen oder Zahlen beinhalten.',
 		'length' => 'Das Namensfeld muss zwischen 2 und 30 Zeichen lang sein.',
 		'nomodify' => 'Die Rolle SuperAdmin kann nicht verändert werden.',
-		'required' => 'Das Feld Name ist notwendig.',
+		'required' => 'Das Namensfeld muss ausgefüllt sein.',
 	),
 	'access_level' => array(
 		'numeric' => 'Das Feld \'Zugangsebene\' muss eine Nummer zwischen 0 - 100 sein.',
